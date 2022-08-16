@@ -1,0 +1,15 @@
+.navbar {
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}
