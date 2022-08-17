@@ -1,15 +1,45 @@
 .navbar {
+    display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
-ul {
-    list-style: none;
-    text-decoration: none;
-    color: blue;
+.navbar-left {
+    display: flex;
+    flex: 2;
     align-items: center;
+    justify-content: center;
 }
 
-li {
-    display: inline;
-    margin: 20px;
+.navbar-home {
+    flex: 1;
+    color: blue;
+    margin-left: 20px;
+}
+
+.navbar-content {
+    flex: 1;
+    color: blue;
+}
+
+.navbar-about {
+    flex: 1;
+    color: blue;
+}
+
+.navbar-right {
+    flex: 1;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.navbar-signUp {
+    margin-right: 20px;
+    color: green;
+}
+
+.navbar-signIn {
+    margin-right: 10px;
+    color: green;
 }
